@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/jiangyimonian">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2F81F7&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+jiangyimonian;Building%2C+learning%2C+shipping." alt="jiangyimonian introduction" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2F81F7&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+jiangyimonian;Building%2C+learning%2C+coding." alt="jiangyimonian introduction" />
   </a>
 </p>
 
