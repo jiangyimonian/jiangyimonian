@@ -121,8 +121,6 @@ const snakePath = pastDays
   })
   .join(" ");
 
-const todayCell = cells.find((item) => item.date === todayKey);
-
 function svg(theme) {
   const dark = theme === "dark";
   const colors = dark
@@ -130,7 +128,6 @@ function svg(theme) {
     : ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"];
   const background = dark ? "#0d1117" : "#ffffff";
   const snake = dark ? "#58a6ff" : "#2f81f7";
-  const today = dark ? "#f778ba" : "#d1242f";
 
   const rects = cells
     .map((item) => {
@@ -141,13 +138,6 @@ function svg(theme) {
     })
     .join("\n");
 
-  const marker = todayCell
-    ? (() => {
-        const [x, y] = point(todayCell);
-        return `<circle cx="${x}" cy="${y}" r="7" fill="none" stroke="${today}" stroke-width="2" opacity="0.9"><title>Today: ${todayKey}</title></circle>`;
-      })()
-    : "";
-
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="${username}'s ${year} GitHub contribution snake">
 <style>
 @media (prefers-reduced-motion: reduce) {
@@ -156,11 +146,9 @@ function svg(theme) {
 </style>
 <rect width="100%" height="100%" fill="${background}" />
 ${rects}
-<path d="${snakePath}" fill="none" stroke="${snake}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.28" />
 <circle class="snake-head" r="5" fill="${snake}">
   <animateMotion dur="10s" repeatCount="indefinite" path="${snakePath}" />
 </circle>
-${marker}
 </svg>
 `;
 }
