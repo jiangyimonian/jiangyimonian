@@ -11,17 +11,9 @@
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jiangyimonian/jiangyimonian/main/profile-3d-contrib/profile-night-rainbow.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jiangyimonian/jiangyimonian/main/profile-3d-contrib/profile-green-animate.svg" />
-    <img src="https://raw.githubusercontent.com/jiangyimonian/jiangyimonian/main/profile-3d-contrib/profile-green-animate.svg" alt="3D GitHub contribution chart" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/jiangyimonian/jiangyimonian/main/dist/github-contribution-grid-snake.svg" alt="Animated snake eating GitHub contributions" />
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jiangyimonian/jiangyimonian/main/dist/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jiangyimonian/jiangyimonian/main/dist/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/jiangyimonian/jiangyimonian/main/dist/github-contribution-grid-snake.svg" alt="Animated snake eating GitHub contributions" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/jiangyimonian/jiangyimonian/main/profile-3d-contrib/profile-gitblock.svg" alt="GitHub contribution chart in building block style" />
 </p>
